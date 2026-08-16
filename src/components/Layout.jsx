@@ -162,7 +162,7 @@ function Layout({ children }) {
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>Pune</li>
                 <li>WhatsApp: (+91) 9145773110</li>
-                <li>Email: prajakta@thecuredoc.com</li>
+                <li>Email: thecuredoc11@gmail.com</li>
               </ul>
             </div>
           </div>

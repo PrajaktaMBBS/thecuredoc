@@ -103,7 +103,7 @@ function Contact() {
                     Email
                   </h3>
                   <p className="text-xs md:text-sm text-gray-600">
-                    prajakta@thecuredoc.com
+                    thecuredoc11@gmail.com
                   </p>
                 </div>
               </div>
