@@ -1,18 +1,18 @@
-import { Link, useLocation } from 'react-router-dom'
-import { useState } from 'react'
+import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Layout({ children }) {
-  const [isOpen, setIsOpen] = useState(false)
-  const location = useLocation()
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/services', label: 'Services' },
-    { path: '/blog', label: 'Blog' },
-    { path: '/testimonials', label: 'Testimonials' },
-    { path: '/contact', label: 'Contact' },
-  ]
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/services", label: "Services" },
+    { path: "/blog", label: "Blog" },
+    { path: "/testimonials", label: "Testimonials" },
+    { path: "/contact", label: "Contact" },
+  ];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -21,7 +21,11 @@ function Layout({ children }) {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
-                <img src="/logo.png" alt="The Cure Doc" className="h-10 w-auto" />
+                <img
+                  src="/logo.png"
+                  alt="The Cure Doc"
+                  className="h-10 w-auto"
+                />
               </Link>
             </div>
 
@@ -32,8 +36,8 @@ function Layout({ children }) {
                   to={link.path}
                   className={`${
                     location.pathname === link.path
-                      ? 'text-blue-600 border-b-2 border-blue-600'
-                      : 'text-gray-700 hover:text-blue-600'
+                      ? "text-blue-600 border-b-2 border-blue-600"
+                      : "text-gray-700 hover:text-blue-600"
                   } px-3 py-2 text-sm font-medium transition-colors`}
                 >
                   {link.label}
@@ -83,8 +87,8 @@ function Layout({ children }) {
                   onClick={() => setIsOpen(false)}
                   className={`${
                     location.pathname === link.path
-                      ? 'text-blue-600 bg-blue-50'
-                      : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
+                      ? "text-blue-600 bg-blue-50"
+                      : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
                   } block px-3 py-2 rounded-md text-base font-medium`}
                 >
                   {link.label}
@@ -102,7 +106,11 @@ function Layout({ children }) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <img src="/logo.png" alt="The Cure Doc" className="h-8 w-auto" />
+                <img
+                  src="/logo.png"
+                  alt="The Cure Doc"
+                  className="h-8 w-auto"
+                />
               </div>
             </div>
             <div>
@@ -119,7 +127,10 @@ function Layout({ children }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="text-gray-300 hover:text-white">
+                  <Link
+                    to="/services"
+                    className="text-gray-300 hover:text-white"
+                  >
                     Services
                   </Link>
                 </li>
@@ -129,12 +140,18 @@ function Layout({ children }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/testimonials" className="text-gray-300 hover:text-white">
+                  <Link
+                    to="/testimonials"
+                    className="text-gray-300 hover:text-white"
+                  >
                     Testimonials
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-gray-300 hover:text-white">
+                  <Link
+                    to="/contact"
+                    className="text-gray-300 hover:text-white"
+                  >
                     Contact
                   </Link>
                 </li>
@@ -155,7 +172,7 @@ function Layout({ children }) {
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

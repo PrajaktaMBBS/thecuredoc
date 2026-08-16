@@ -189,16 +189,32 @@ function Home() {
 
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 md:gap-6 space-y-4 md:space-y-6">
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={smile1} alt="Healthy Smile 1" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={smile1}
+                alt="Healthy Smile 1"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={smile2} alt="Healthy Smile 2" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={smile2}
+                alt="Healthy Smile 2"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={smile3} alt="Healthy Smile 3" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={smile3}
+                alt="Healthy Smile 3"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={smile4} alt="Healthy Smile 4" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={smile4}
+                alt="Healthy Smile 4"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
 

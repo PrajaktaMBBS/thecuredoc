@@ -167,22 +167,46 @@ function About() {
 
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 md:gap-6 space-y-4 md:space-y-6">
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage1} alt="Journey Moment 1" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage1}
+                alt="Journey Moment 1"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage2} alt="Journey Moment 2" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage2}
+                alt="Journey Moment 2"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage3} alt="Journey Moment 3" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage3}
+                alt="Journey Moment 3"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage4} alt="Journey Moment 4" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage4}
+                alt="Journey Moment 4"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage5} alt="Journey Moment 5" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage5}
+                alt="Journey Moment 5"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-lg break-inside-avoid">
-              <img src={collage6} alt="Journey Moment 6" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+              <img
+                src={collage6}
+                alt="Journey Moment 6"
+                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
         </div>
