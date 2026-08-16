@@ -179,7 +179,7 @@ function Services() {
                 <p className="text-sm md:text-base text-gray-700 text-center">
                   Book the consultation by making the payment of the plan you
                   are interested in and share the payment details on WhatsApp:{" "}
-                  <span className="font-bold text-blue-600">9172750338</span>
+                  <span className="font-bold text-blue-600">9145773110</span>
                 </p>
               </div>
 
@@ -254,7 +254,7 @@ function Services() {
                     </div>
                   </div>
                   <p className="text-gray-900 font-bold text-sm md:text-base mb-4">
-                    9172750338
+                    9145773110
                   </p>
 
                   <div className="border-t border-green-200 pt-4 mt-4">
@@ -357,7 +357,7 @@ function Services() {
           </p>
           <div className="space-y-4">
             <a
-              href="https://wa.me/9172750338"
+              href="https://wa.me/919145773110"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors"
@@ -365,7 +365,7 @@ function Services() {
               Contact on WhatsApp to Book
             </a>
             <div className="text-blue-100 text-sm">
-              <p>WhatsApp: 9172750338</p>
+              <p>WhatsApp: 9145773110</p>
             </div>
           </div>
         </div>

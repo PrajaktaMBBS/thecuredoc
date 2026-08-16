@@ -419,7 +419,7 @@ function About() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
             <a
-              href="https://wa.me/9172750338"
+              href="https://wa.me/919145773110"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-6 md:px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors text-center text-sm md:text-base"

@@ -200,7 +200,7 @@ function Blog() {
                     View Services
                   </a>
                   <a
-                    href="https://wa.me/9172750338"
+                    href="https://wa.me/919145773110"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 text-white px-5 md:px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors text-center text-sm md:text-base"
