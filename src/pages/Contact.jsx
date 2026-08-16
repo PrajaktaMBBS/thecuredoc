@@ -53,9 +53,7 @@ function Contact() {
                       Address
                     </h3>
                     <p className="text-xs md:text-sm text-gray-600">
-                      A/P Patas, Tal. Daund,
-                      <br />
-                      Dist. Pune, Pin Code: 412219
+                      Pune
                     </p>
                   </div>
                 </div>

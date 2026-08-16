@@ -143,8 +143,7 @@ function Layout({ children }) {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li>A/P Patas, Tal. Daund</li>
-                <li>Dist. Pune, Pin Code: 412219</li>
+                <li>Pune</li>
                 <li>WhatsApp: (+91) 9145773110</li>
                 <li>Email: prajakta@thecuredoc.com</li>
               </ul>
